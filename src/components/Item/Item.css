@@ -1,0 +1,37 @@
+#productList > li {
+    padding: 0.5rem;
+    width: 15rem;
+    height: 20rem;
+    list-style-type: none;
+    border-radius: 0.5rem;
+    background-color: rgb(77, 76, 76);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#productList > li > :nth-child(2) {
+    height: 2rlh;
+}
+
+#productList > li > a {
+    display: grid;
+    place-items: center;
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(39, 39, 39);;
+    color: beige;
+    border-radius: 0.5rem;
+    border: none;
+    text-decoration: none;
+}
+
+#productList > li > a:hover {
+    background-color: rgb(19, 19, 19);
+    color: beige;
+    font-weight: bolder;
+    cursor: pointer;
+}
