@@ -2,6 +2,15 @@
     display: flex;
     width: 80vw;
     gap: none;
+    margin-top: 1rem;
+}
+
+.imgDetail {
+    display: grid;
+    place-items: center;
+    width: 80%;
+    margin-top: 1rem;
+    border-radius: 0.5rem;
 }
 
 .itemDetail > div:first-child {
@@ -31,6 +40,6 @@
     }
 
 .itemDetail > div:last-child > button:hover {
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(255, 255, 255, 0.411);
     cursor: pointer;
 }

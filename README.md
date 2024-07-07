@@ -1,8 +1,24 @@
-# React + Vite
+# Este es mi proyecto final para el Curso de React JS de Coderhouse. 
+Creé un ecommerce ficticio de cuadernos de Taylor Swift.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tecnologías y librerías utilizadas
+Firebase
+Router-Dom
+Vite
+React JS
+Javascript
+CSS
+HTML
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Acceso al proyecto
+Descargar archivo .ZIP desde "Code"
+Descomprimir y abrir el archivo
+Ejecutar en terminal los comandos: 
+npm install
+npm run dev
+'''
+Otra opción es clonar el proyecto
+Ejecutando en consola:
+git clone URL del proyecto
+npm install
+npm run dev
