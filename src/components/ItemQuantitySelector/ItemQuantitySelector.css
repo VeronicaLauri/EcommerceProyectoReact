@@ -1,0 +1,25 @@
+#itemQuantitySelector {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#itemQuantitySelector > button {
+    height: 3rem;
+    width: 3rem;
+    background-color: rgb(214, 214, 214);
+    border-radius: 0.5rem;
+    border: none;
+    font-family: "IM Fell DW Pica", serif;
+}
+
+#itemQuantitySelector > div {
+    width: 2ch;
+    text-align: center;
+    font-size: 2rem;
+}
+    
+#itemQuantitySelector > button:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+    cursor: pointer;
+}

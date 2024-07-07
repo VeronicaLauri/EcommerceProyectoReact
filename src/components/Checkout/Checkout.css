@@ -1,0 +1,102 @@
+#checkoutForm {
+    align-self: start;
+    max-height: 100%;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+#checkoutForm > fieldset {
+    width: 95%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 0.1rem solid  rgb(240, 240, 240);
+    border-radius: 0.5rem;
+}
+
+#checkoutForm > fieldset > legend {
+    text-wrap: balance;
+    text-align: center;
+}
+
+#checkoutForm > fieldset > div {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#checkoutForm > fieldset > div > label { padding: 0.5rem; }
+
+#checkoutForm > fieldset > div > input,
+#checkoutForm > fieldset > div > select {
+    min-height: 3rem;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.644);
+    color: black;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: "IM Fell DW Pica", serif;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#checkoutForm > fieldset > div > input:hover,
+#checkoutForm > fieldset > div > select:hover { cursor: pointer; }
+
+#checkoutForm > fieldset > div > input:focus,
+#checkoutForm > fieldset > div > select:focus {
+    background-color: rgba(255, 255, 255, 0.411);
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+#checkoutForm > button {
+    margin: 0.5rem;
+    min-height: 3rem;
+    width: 9rem;
+    background-color: rgb(214, 214, 214);
+    font-family: "IM Fell DW Pica", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+    align-self: center;
+    }
+
+#checkoutForm > button:hover {
+    background-color:  rgb(240, 240, 240);
+    cursor: pointer;
+}
+
+
+#checkoutTotal {
+    align-self: start;    
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+#checkoutTotal > :first-child {
+    padding: 0.5rem;
+    border: 0.1rem solid  rgb(240, 240, 240);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+#checkoutTotal > div > :nth-child(2) > * {
+    display: flex;
+    justify-content: space-between;
+}
+
+#checkoutTotal > :last-child { display: flex; }

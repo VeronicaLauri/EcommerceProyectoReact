@@ -1,0 +1,51 @@
+#cartItemList + div {
+    align-self: start;    
+    width: 40%;
+    padding: 0.5rem;
+    border: 0.1rem solid  rgb(240, 240, 240);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#cartItemList + div > :nth-child(2) > * {
+    display: flex;
+    justify-content: space-between;
+}
+
+#cartItemList + div > :nth-child(3) {
+    align-self: center;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(214, 214, 214);
+    font-family: "IM Fell DW Pica", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#cartItemList + div > a > :last-child {
+    align-self: center;
+    height: 3rem;
+    width: 10rem;
+    background-color: rgb(214, 214, 214);
+    font-family: "IM Fell DW Pica", serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    border: none;
+}
+
+#cartItemList + div > :nth-child(3):hover {
+    background-color: rgb(226, 121, 121);
+    color: rgb(214, 214, 214);
+    cursor: pointer;
+}
+
+#cartItemList + div > a > :last-child:hover {
+    background-color: rgba(255, 255, 255, 0.411);
+    cursor: pointer;
+}
